@@ -1,0 +1,178 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.seccion {
+    min-height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.caja imag {
+    width: 250px;
+    height: 300px;
+    border:2px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    margin:20px;
+    border:2px solid black;
+}
+.caja {
+    width: 45%;
+    height: 300px;
+}
+.contenido-respuestas p {
+    margin: 4px 0;
+    font-size: 14px;
+}
+
+.interna2 {
+    background-color: #ffa39e;
+}
+.interna3 {
+   width:95%;
+   height: 80px;
+   background-color: red;
+   border-radius: 10px ;
+   
+   background-position:center;
+    
+}
+.interna4 {
+   width:95%;
+   height: 80px;
+   background-color: grey;
+   border-radius: 10px ;
+   background-image:url(contacto.jpg);
+   background-size:contain;
+   backgorund-repeat:no-repeat;
+   background-position:center;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.cabecera {
+    background-color: red;
+    width:960x;
+    min-height: 150px;display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.contenidoa {
+    background-color: blue;
+    width:960x;
+    height: 600px;display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contenidob {
+    background-color: grey;
+    width:960x;
+    height: 600px;display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.pie {
+    background-color: green;
+    width:960x;
+    min-height: 120px;display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.botonera {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+.botonera button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    flex-shrink: 1;
+    max-width: 100%;
+}
+
+.botonera button:hover {
+    background-color: lightgray;
+}
+
+.interna1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 6px;
+    width: 90%;
+    min-height: 100px;
+    padding: 10px;
+    background-color: yellow;
+    border-radius: 10px 50px 30px 70px;
+    border: 3px solid blue;
+    box-sizing: border-box;
+}
+.interna2 {
+    border-radius: 10px 30px;
+    background: -webkit-radial-gradient( center,red,orange,green)
+}
+.interna1 p {
+    font-size: 14px;
+    margin: 4px;
+    flex: 1 1 45%; /* Dos por fila */
+}
+.caja.imag {
+    cursor: pointer;
+}
+.imagena {
+
+    background-image:url(home.jpg);
+    background-position:center;
+    background-size:contain;
+}
+.imagenb{
+    background-image:url(comestibles.jpg);
+    background-position:top right;
+    background-size:contain;
+}
+.imagenc{
+    background-image:url(celulares.jpg);
+    background-position:top right;
+    background-size:contain;
+}
+.imagend{
+    background-image:url(muebles.jpg);
+    background-position:top right;
+    background-size:contain;
+}
+.imagene{
+    background-image:url(electrodomesticos.jpg);
+    background-position:top right;
+    background-size:contain;
+}
+.imagenf{
+    background-image:url(ferreteria.jpg);
+    background-position:top right;
+    background-size:contain;
+}
+
+.zoom {
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
+    z-index: 10;
+}
